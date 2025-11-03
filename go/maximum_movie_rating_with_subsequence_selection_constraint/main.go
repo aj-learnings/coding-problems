@@ -10,7 +10,7 @@
  * Sample Output 2 - -6 (1st, 3rd, 5th movie can be skipped)
  */
 
-package main
+package main;
 
 import "fmt"
 
