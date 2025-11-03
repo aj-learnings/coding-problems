@@ -76,7 +76,7 @@ int minimumBulbsRequired(vector<House>& houses, int threshold) {
 
 int main() {
 
-    vector<House> houses { House(1, 3), House(2, 4), House(3, 5), House(1, 2), House(4, 6), House(5, 7) };
+    vector<House> houses { House(1, 10), House(40, 50), House(30, 40), House(10, 20), House(20, 30) };
     cout << minimumBulbsRequired(houses, 2) << "\n";
     cout << minimumBulbsRequired(houses, 10) << "\n";
     
