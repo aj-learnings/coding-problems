@@ -1,11 +1,12 @@
 # Given a Linked List, Reverse it using iteration as well as recursion
 
 import random
+from typing import Optional
 
 class Node:
     def __init__(self, newData):
-        self.data = newData
-        self.next = None
+        self.data: int = newData
+        self.next: Optional[Node] = None
 
 def createLinkedList(size, limit):
     head = Node(random.randint(1, limit))
